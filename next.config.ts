@@ -1,15 +1,7 @@
-import type { NextConfig as _NextConfig } from "next";
+import type { NextConfig } from "next";
 
-interface ExtendedNextConfig extends _NextConfig {
-  eslint?: {
-    ignoreDuringBuilds: boolean;
-  };
-}
-
-const nextConfig: ExtendedNextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+const nextConfig: NextConfig = {
+  /* config options here */
 };
 
 export default nextConfig;
