@@ -1,9 +1,9 @@
-"use client";
-
 /**
  * @copyright 2025 skarwuuu
  * @license Apache-2.0
  */
+
+"use client";
 
 import {
   Check,
@@ -109,8 +109,6 @@ const IconMap: { [key: string]: React.ElementType } = {
   ShieldCheck,
   Check,
 };
-
-const duration = 0.3;
 
 export default function Pricing() {
   return (

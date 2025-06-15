@@ -38,8 +38,8 @@ This project leverages modern web technologies:
 - **Responsive Design:** Mobile-first approach ensures compatibility across all screen sizes.
 
 <div align="center">
- <img src="./public/screenshots/2.png" alt="Responsive Screenshot" height="600">
- <img src="./public/screenshots/3.png" alt="Responsive Screenshot" height="600">
+ <img src="./public/screenshots/2.png" alt="Responsive Screenshot" height="450" style="margin-right: 20px">
+ <img src="./public/screenshots/3.png" alt="Responsive Screenshot" height="450">
 </div>
 
 ---
