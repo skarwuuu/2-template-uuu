@@ -4,21 +4,19 @@
  */
 
 import Hero from "@/app/_sections/Hero";
-import Patnerships from "@/app/_sections/Patnerships";
-import Showcase from "@/app/_sections/Showcase";
-import Pricing from "@/app/_sections/Pricing";
-import Testimonials from "./_sections/Testimonials";
-import CTA from "./_sections/CTA";
+import Features from "@/app/_sections/Features";
+import History from "@/app/_sections/History";
+import Styles from "@/app/_sections/Styles";
+import FAQs from "@/app/_sections/FAQs";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Patnerships />
-      <Showcase />
-      <Pricing />
-      <Testimonials />
-      <CTA />
+      <Features />
+      <History />
+      <Styles />
+      <FAQs />
     </>
   );
 }

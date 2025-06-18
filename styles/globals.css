@@ -3,33 +3,15 @@
  * @license Apache-2.0
  */
 
-@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
-
 @import "tailwindcss";
 
-@theme {
-  --font-sans: "Geist", sans-serif;
-  --animate-border-glow: rotate 8s linear infinite;
-}
-
 :root {
+  color: #d6d3d1;
+  background-color: #1c1917;
   scroll-behavior: smooth !important;
-  scroll-padding-top: 2rem;
-  color: white;
-  background-color: black;
 }
 
-@keyframes rotate {
-  from {
-    --angle: 0deg;
-  }
-  to {
-    --angle: 360deg;
-  }
-}
-
-@property --angle {
-  syntax: "<angle>";
-  initial-value: 0deg;
-  inherits: true;
+@theme inline {
+  --font-sans: var(--font-archivo);
+  --font-cursive: var(--font-beau);
 }
