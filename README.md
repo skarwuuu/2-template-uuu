@@ -1,10 +1,8 @@
-# Palisto Project - Next.js Website Template
+# Palistor - Next.js Website Template
 
-### 😻 Special Thanks to [Frontend Tribe](https://www.youtube.com/channel/UCKZZiXKJ8rU7LkRaTS2CDcA) - [Project Video](https://www.youtube.com/watch?v=7hi5zwO75yc)
+Palistor is a sleek, modern, and fully responsive website template built with Next.js and Motion.dev. It's designed to provide a robust starting point for developers looking to build applications with a clean layout or designers looking for ideas.
 
-Palisto Project is a sleek, modern, and fully responsive website template built with Next.js and Motion.dev. It's designed to provide a robust starting point for developers looking to build applications with a clean layout or designers looking for ideas.
-
-![Palisto Project Screenshot](./public/screenshots/1.png)
+![Palistor Screenshot](./public/screenshots/1.png)
 
 ---
 
