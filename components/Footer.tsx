@@ -65,19 +65,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-{
-  /* <div className="mt-12 border-t border-stone-700 pt-8 text-center text-stone-500">
-  <p>&copy; {new Date().getFullYear()} Palistor. All Rights Reserved.</p>
-  <p className="text-sm mt-1">
-    pawed out by{" "}
-    <Link
-      href="https://github.com/skarwuuu"
-      target="_blank"
-      className="hover:text-stone-300 underline cursor-none"
-    >
-      skarwuuu
-    </Link>
-  </p>
-</div>; */
-}
