@@ -6,15 +6,9 @@
 "use client";
 
 import { ArrowUpRight, ChevronLeft, ChevronRight } from "lucide-react";
-import Image, { StaticImageData } from "next/image";
+import { StaticImageData } from "next/image";
 import { useState, useRef, useEffect } from "react";
-import {
-  motion,
-  useMotionValue,
-  useTransform,
-  PanInfo,
-  animate,
-} from "motion/react";
+import { motion, useMotionValue, PanInfo, animate } from "motion/react";
 
 type CarouselItem = {
   text: string;
@@ -28,7 +22,6 @@ interface CarouselProps {
 
 export default function Carousel({ items }: CarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const carouselRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [cardWidth, setCardWidth] = useState(0);
   const x = useMotionValue(0);

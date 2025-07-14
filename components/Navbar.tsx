@@ -91,7 +91,7 @@ export default function Navbar() {
         observerRef.current.disconnect();
       }
     };
-  }, [lenis, navItemsOne]);
+  }, [lenis, navItemsOne, scrollY]);
 
   useEffect(() => {
     if (activeTab) {
@@ -121,7 +121,7 @@ export default function Navbar() {
         damping: 40,
       });
     }
-  }, [activeTab]);
+  }, [activeTab, underlineX, underlineWidth, underlineScale]);
 
   useEffect(() => {
     if (isMobileMenuOpen) {
