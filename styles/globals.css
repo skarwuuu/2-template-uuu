@@ -6,7 +6,7 @@
 @import "tailwindcss";
 
 @theme inline {
-  --font-sans: var(--font-space);
+  --font-sans: var(--font-funnel-display);
 
   --color-accent: #770020;
   --color-foreground: #fefefe;

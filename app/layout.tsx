@@ -10,12 +10,12 @@ import LenisScroll from "@/providers/LenisScroll";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-import { Space_Grotesk } from "next/font/google";
+import { Funnel_Display } from "next/font/google";
 
-const space = Space_Grotesk({
+const funnelDisplay = Funnel_Display({
   subsets: ["latin"],
-  weight: "variable",
-  variable: "--font-space",
+  weight: ["300", "400", "500", "600", "700", "800"],
+  variable: "--font-funnel-display",
 });
 
 export const metadata: Metadata = {
@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${space.variable}`}>
+    <html lang="en" className={`${funnelDisplay.variable}`}>
       <body className="text-foreground bg-background selection:bg-accent/80">
         <LenisScroll>
           <Navbar />
