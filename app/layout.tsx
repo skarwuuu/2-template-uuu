@@ -3,7 +3,7 @@
  * @license Apache-2.0
  */
 
-import "@/styles/globals.css";
+import "@/styles.css";
 import type { Metadata } from "next";
 
 import LenisScroll from "@/providers/LenisScroll";
@@ -19,8 +19,8 @@ const funnelDisplay = Funnel_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Template 2 - Palindroma",
-  description: "Template 2 - by skarwuuu",
+  title: "Template 2",
+  description: "by skarwuuu",
   icons: "/assets/favicon.svg",
 };
 
